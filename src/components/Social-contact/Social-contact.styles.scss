@@ -1,0 +1,21 @@
+.social-contact {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4rem;
+  font-size: 2rem;
+  color: white;
+  span {
+    background-color: #004732;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4em;
+    width: 4em;
+    border-radius: 50%;
+    margin-right: 3rem;
+    box-shadow: 0 0 3rem rgba(0, 0, 0, 0.281);
+  }
+  a {
+    color: white;
+  }
+}

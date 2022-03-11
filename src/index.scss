@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,500&display=swap");
+html {
+  font-size: 62.5%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  color: rgb(0, 0, 0);
+  background-color: #019267;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+a {
+  color: black;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  letter-spacing: 1px;
+}
+.section-heading {
+  font-size: 3rem;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+  font-family: inherit;
+  margin-bottom: 3rem;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+@keyframes hover {
+  100% {
+    width: 100%;
+    background-color: red;
+  }
+}

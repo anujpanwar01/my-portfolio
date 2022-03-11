@@ -1,0 +1,34 @@
+input[type="text"] {
+}
+input[type="number"],
+input[type="email"] {
+  width: 20rem;
+}
+input[type="email"] {
+  margin-right: 2rem;
+}
+input {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  border: 2px solid #004732;
+  letter-spacing: 0.5px;
+  &::placeholder {
+    font-family: inherit;
+    color: #777;
+  }
+}
+textarea {
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  border: 2px solid #004732;
+}
+textarea {
+  font-size: 1.4rem;
+  letter-spacing: 0.5px;
+
+  &::placeholder {
+    font-family: inherit;
+    color: #777;
+  }
+}

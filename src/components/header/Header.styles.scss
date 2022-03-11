@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  //   justify-content: space-around;
+  padding: 1rem 2rem;
+  font-size: 1.8rem;
+  a {
+    color: rgb(0, 0, 0);
+    margin-bottom: 2rem;
+  }
+  .img-container {
+    height: 20rem;
+    width: 20rem;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 4rem;
+    border: 5px solid #c7c7c7;
+
+    img {
+      width: 100%;
+    }
+  }
+  div {
+    display: flex;
+    flex-direction: column;
+  }
+}
