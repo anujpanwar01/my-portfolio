@@ -1,8 +1,8 @@
 .left-side {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   flex-direction: column;
-  // height: 100vh;
+  padding: 8rem 0 0;
   position: relative;
-  box-shadow: 0 1rem 1rem black;
+  box-shadow: 0 0 1rem rgba(255, 255, 255, 0.795);
 }

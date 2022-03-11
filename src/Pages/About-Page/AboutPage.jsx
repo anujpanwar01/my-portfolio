@@ -1,7 +1,7 @@
 import React from "react";
 import { FaLinkedin, FaGithub, FaTwitter, FaInstagram } from "react-icons/fa";
 import ALink from "../../components/Link/ALink";
-import "./About.styles.scss";
+import "./About-page.styles.scss";
 
 const About = function () {
   return (

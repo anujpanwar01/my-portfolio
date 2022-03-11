@@ -1,0 +1,11 @@
+.education {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12rem 0 14rem;
+
+  & h3 {
+    margin-bottom: 6rem;
+    color: #004732;
+  }
+}

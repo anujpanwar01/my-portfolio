@@ -4,7 +4,7 @@ import FormInput from "../../components/Form-Input/FormInput";
 import SocialContact from "../../components/Social-contact/SocialContact";
 import CustomBtn from "../../components/Custom-Btn/CustomBtn";
 
-import "./Contact-form.styles.scss";
+import "./Contact-form-page.styles.scss";
 
 class ContactForm extends React.Component {
   constructor() {
