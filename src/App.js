@@ -1,6 +1,13 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import LeftPage from "./Pages/left-page/LeftPage";
+// import LeftPage from "./left-page/LeftPage";
+import Header from "./components/header/Header.component";
+import Footer from "./components/Footer/Footer.component";
+import SocialIcons from "./components/Social-icons/SocialIcons.component";
+// import RightSideLayout from "./right-side-layout/RightSideLayout";
+// import LeftPage from "./Layouts/right-side-layout/left-page/LeftPage";
+// import RightSideLayout from "./Layouts/right-side-layout/RightSideLayout";
+import HomePage from "./Pages/Home-Page/HomePage.component";
 import AboutPage from "./Pages/About-Page/AboutPage";
 import EducationPage from "./Pages/Education-Page/EducationPage";
 import ProjectPage from "./Pages/Project-Page/ProjectPage";
@@ -24,16 +31,22 @@ import "./App.scss";
 function App() {
   return (
     <div className="app">
-      <LeftPage />
-      <div className="right-side">
+      <div className="left-side-layout">
+        <Header />
+        <Footer />
+      </div>
+
+      <div className="right-side-layout">
+        <SocialIcons />
         <Routes>
-          {/* <Route path="/footer" element={<Footer />} /> */}
+          <Route exact path="/" element={<HomePage />} />
           <Route path="/about-me" element={<AboutPage />} />
           <Route path="/education" element={<EducationPage />} />
           <Route path="/projects" element={<ProjectPage />} />
           <Route path="/contact" element={<ContactFormPage />} />
         </Routes>
       </div>
+      {/* </RightSideLayout> */}
       {/* <h1>Hello</h1> */}
       {/* <Hero /> */}
       {/* <Best /> */}

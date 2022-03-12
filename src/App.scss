@@ -2,6 +2,18 @@
   display: grid;
   grid-template-columns: 35rem 1fr;
   text-align: center;
+  .right-side-layout {
+    grid-column: 2;
+  }
+  .left-side-layout {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 5rem 5rem 2rem 3rem;
+    position: fixed;
+    height: 100vh;
+    box-shadow: 0 0 1rem #004732;
+  }
 }
 
 .App-logo {

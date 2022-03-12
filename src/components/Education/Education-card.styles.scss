@@ -3,6 +3,10 @@
   color: white;
   grid-template-columns: 10rem 1fr;
   position: relative;
+  p,
+  h2 {
+    text-align: left;
+  }
   & span {
     width: 2rem;
     height: 2rem;

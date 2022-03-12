@@ -1,0 +1,33 @@
+.social-icons {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  right: 1.5rem;
+  top: 35%;
+
+  &::after,
+  &::before {
+    content: "";
+    display: block;
+    width: 2px;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+  }
+  &::after {
+    top: -110%;
+  }
+  &::before {
+    bottom: -110%;
+  }
+  .icons {
+    color: white;
+    &:hover {
+      color: #004732;
+    }
+  }
+  .icons:not(:last-child) {
+    margin-bottom: 2rem;
+  }
+}

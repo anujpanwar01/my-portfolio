@@ -5,10 +5,9 @@ import "./Project-card.styles.scss";
 const ProjectCard = ({ title, overview, imgUrl }) => {
   return (
     <div className="projects">
-      <div
-        className="img-container"
-        style={{ backgroundImage: `url(${imgUrl})` }}
-      ></div>
+      <div className="img-container">
+        <img src={imgUrl} alt={title} />
+      </div>
       <div className="overview">
         <h2>{title}</h2>
         <p>{overview}</p>

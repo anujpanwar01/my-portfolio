@@ -93,7 +93,7 @@ class ContactForm extends React.Component {
               value={message}
               onChange={inputChangeHandler}
               placeholder="type your message..."
-              style={{ resize: "none", height: "5rem" }}
+              style={{ resize: "none", height: "10rem" }}
             ></textarea>
             <CustomBtn>Submit</CustomBtn>
           </form>

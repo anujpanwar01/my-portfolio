@@ -8,7 +8,7 @@ const About = function () {
     <div className="about">
       <div className="about-details">
         <h4>Who I am</h4>
-        <h3>About Me</h3>
+        <h3 className="section-heading">About Me</h3>
         <aside>
           Hello my name is <strong>Anuj Panwar</strong>, Passionate about
           Front-end Development. I'm from Dehradun Uttarakhand, India. I Love to
@@ -40,7 +40,7 @@ const About = function () {
           Download CV
         </ALink>
       </div>
-      <div className="social-media">
+      {/* <div className="social-media">
         <ALink link={"https://www.linkedin.com/in/anuj-panwar-a1390a229/"}>
           {" "}
           <FaLinkedin color="white" size={28} />
@@ -55,7 +55,7 @@ const About = function () {
         <ALink link="https://www.instagram.com/anujpanwar01/">
           <FaInstagram color="white" size={28} />
         </ALink>
-      </div>
+      </div> */}
     </div>
   );
 };

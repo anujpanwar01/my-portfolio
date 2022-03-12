@@ -1,0 +1,65 @@
+.home-section {
+  padding: 12rem 8rem;
+}
+.home-page {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px solid #004732;
+  border-radius: 1rem;
+  overflow: hidden;
+
+  &-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 0 0 5rem;
+    h2,
+    h1,
+    h3,
+    a,
+    p {
+      margin-bottom: 1rem;
+      color: white;
+      font-weight: 500;
+    }
+    h2 {
+      font-size: 4.8rem;
+    }
+    h1 {
+      font-size: 6.4rem;
+    }
+    h3 {
+      font-size: 3.2rem;
+    }
+    p {
+      font-size: 1.6rem;
+      width: 80%;
+      text-align: left;
+    }
+    a {
+      font-size: 1.6rem;
+      padding: 1.2rem 4.8rem;
+      border-radius: 1rem;
+      margin-top: 2rem;
+      color: white;
+      background: #004732;
+      border: 3px solid #004732;
+      &:hover {
+        text-decoration: none;
+        background-color: transparent;
+        border: 3px solid #004732;
+      }
+    }
+  }
+  &-logo {
+    background-color: #004732;
+    width: 50rem;
+    height: 50rem;
+
+    img {
+      width: 100%;
+    }
+  }
+}

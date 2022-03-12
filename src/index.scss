@@ -1,13 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 html {
   font-size: 62.5%;
 }
 body {
-  margin: 0;
-  padding: 0;
   color: rgb(0, 0, 0);
-  background-color: #019267;
-  box-sizing: border-box;
+  background-color: #019276;
+
   font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -20,7 +23,7 @@ code {
     monospace;
 }
 a {
-  color: black;
+  color: #004732;
   text-decoration: none;
 
   &:hover {
@@ -40,7 +43,7 @@ p {
 .section-heading {
   font-size: 3rem;
   font-weight: 400;
-  color: rgb(0, 0, 0);
+  color: #004732 !important;
   font-family: inherit;
   margin-bottom: 3rem;
   letter-spacing: 1px;
